@@ -1,4 +1,4 @@
-### 직무부트캠프 Comento
+### 직무부트캠프 Comento --
 https://comento.kr/edu  
 https://comento.kr/classroom/8351  
 2022. 08. 31 ~ 2022. 10. 05  
