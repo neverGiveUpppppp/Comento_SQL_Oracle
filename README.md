@@ -6,7 +6,7 @@ https://comento.kr/classroom/8351
   
   
 
-##### 1주차
+##### 1주차 : https://consistently-n-be-positive.notion.site/1-cab61446156945ad96a356b65661b050
 ##### 2주차 : https://consistently-n-be-positive.notion.site/2-5f87fa832b544b608886ba12deb55d0c
 ##### 3주차
 ##### 4주차
