@@ -1,19 +1,3 @@
-SELECT * FROM ALL_TABLES;
-
-SELECT * FROM T_DEPT;
-SELECT * FROM T_EMP;
-
-SELECT * FROM EMP_C;
-SELECT * FROM FAM_C;
-SELECT * FROM ORG_C;
-SELECT * FROM FAM_REL_C;
-
-SELECT * FROM EMP_C
-WHERE emp_no = 10004141;
-SELECT * FROM FAM_C 
-WHERE emp_no = 10004141;
-SELECT * FROM FAM_REL_C
-WHERE emp_no = 10004141;
 
 -----------------------------------------------------------------
 ----------------------------- 2주차 과제 -------------------------
@@ -124,10 +108,14 @@ GROUP BY E.EMP_NO, E.EMP_NM;  -- 인출행 수 1239
 
 --문제7) 생년월일이 1970년 1월 1일 이전인 직원의 수를 구하는 sql을 작성하세요.
 --
+SELECT EMP_NM 이름, BIRTH_YMD 생년월일 FROM EMP_C
+WHERE BIRTH_YMD > 19700101;
 
 
 --문제8) 현재 재직 중인 직원의 전체 수를 구하는 sql을 작성하세요
 
+SELECT COUNT(*) 직원전체수 FROM EMP_C
+WHERE RETIRE_YMD > TO_CHAR(990101);
 
 SELECT * FROM EMP_C;
 SELECT * FROM FAM_C;
