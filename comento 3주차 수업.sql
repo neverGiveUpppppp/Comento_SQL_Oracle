@@ -5,7 +5,7 @@
 
 
 SELECT * FROM EMP_C;
-SELECT * FROM FAM_C;
+SELECT * FROM FAM_C; 
 SELECT * FROM ORG_C;
 SELECT * FROM FAM_REL_C;
 
@@ -373,6 +373,8 @@ SELECT
 --  기준컬럼은 무조건 조회하고 대상이 되는 컬럼을 조회함. 없으면 NULL반환
 --  실무에서 INNER보다 LEFT OUTER를 더 많이씀
 --  LEFT OUTER JOIN과 잘쓰는게 NVL()
+-- RIGHT OUTER JOIN 개념
+--  기준 테이블이 아니라 대상테이블을 전부 가져오고 기준 테이블에 조건 적용
 -- EX)
 SELECT
 EMP.*
